@@ -4,3 +4,29 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+
+/* header related color */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-header{
+    color: #131313;
+    font-size: 45px;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}

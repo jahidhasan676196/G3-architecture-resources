@@ -68,7 +68,37 @@ nav li a{
 .banner img{
     width: 100%;
 }
-
+/* main section */
+main{
+    max-width: 1440px;
+}
+/* team section related style */
+.teams-img-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.teams-container{
+    display: flex;
+}
+.teams-contant{
+    padding: 76px;
+}
+.teams-contant-title{
+    font-size: 45px;
+}
+.teams-contant-quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+/* .teams-contant-of-our{
+    color: #131313;
+    font-weight: 700;
+} */
+.teams-contant-features{
+    color: #FF900E;
+    font-weight: 700;
+}
 
 /* responsive media quary */
 /* mobail device */

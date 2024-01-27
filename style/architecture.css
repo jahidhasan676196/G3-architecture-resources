@@ -108,6 +108,18 @@ main{
     font-weight: 400;
 }
 
+/* some facts style */
+.some-facts-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.some-facts-paragraph{
+    color:  #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* responsive media quary */
 /* mobail device */
 @media screen and (max-width:576px) {
